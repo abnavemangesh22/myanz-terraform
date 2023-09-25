@@ -3,5 +3,5 @@ provider "aws" {
   #secret_key = "yQH4Pgbs1OHHXkTbmrv6RLnUWLOA07+LoISw5RRn"
   region     = "ap-south-1"
   shared_credentials_files = ["/root/.aws/credentials"]
-  profile = "/root/.aws/default"
+  profile = "default"
 }
